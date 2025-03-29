@@ -16,3 +16,28 @@ nav a {
     color: white;
     margin: 0 10px;
 }
+
+
+/* Code */
+
+/* Style the code block container */
+.highlight {
+    background: #282c34; /* Dark background */
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x: auto;
+    font-family: 'Fira Code', monospace;
+}
+
+/* Style the actual code */
+.highlight pre {
+    color: #abb2bf; /* Light text */
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Style the keywords, strings, etc. */
+.highlight .nx { color: #61afef; } /* Variable names */
+.highlight .nf { color: #d19a66; } /* Functions */
+.highlight .s1 { color: #98c379; } /* Strings */
+.highlight .p  { color: #c678dd; } /* Punctuation */
